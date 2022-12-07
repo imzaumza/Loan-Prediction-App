@@ -32,7 +32,7 @@ First, let’s install Streamlit on our local machine and explore how it works. 
 
     st.set_page_config( 
         page_title="Loan Prediction App",
-        page_icon="/Users/mariia/Desktop/AWS/loan.png" 
+        page_icon="https://png.pngtree.com/png-clipart/20190614/original/pngtree-loan-icon-png-image_3700428.jpgg" 
     )
     st.set_option('deprecation.showPyplotGlobalUse', False)
 
@@ -51,7 +51,7 @@ st.subheader(“Are you sure your loan applicant is surely going to   pay the lo
 
 ### In the col1 we place an image asset “loan.png” by using streamlit function st.image, and in the col2 — text by using st.write function:
     with col1: 
-        st.image("/Users/mariia/Desktop/AWS/loan.png") 
+        st.image("https://persiadigest.com/wp-content/uploads/2021/04/5-Tips-for-Getting-Your-First-Financial-Loan.jpg") 
     with col2: 
         st.write("""To borrow money, credit analysis is performed. 
         Credit analysis involves the measure to investigate the probability of the applicant to pay back the loan on time and predict its default/ failure to pay back. 
@@ -74,7 +74,7 @@ The sidebar is the most important component, this is the place where we collect 
 First we define the title, image and text as explanation of the sidebar by using the st.sidebar.title(), st.sidebar.image(), st.sidebar.write() functions. Please note, that the “sidebar” comes between st and title(), which gives the full name of the st.sidebar.title() function. This function tells the streamlit library that we want to put the title in the sidebar.
 
     - st.sidebar.title("Loan Applicant Info") 
-    - st.sidebar.image("/Users/mariia/Desktop/AWS/ab.png", width=100) 
+    - st.sidebar.image("https://thumbs.dreamstime.com/b/quick-easy-loan-fast-money-providence-icon-vector-illustration-instant-credit-payment-finance-color-symbol-web-  mobile-160008798.jpg", width=100) 
     - st.sidebar.write("Please choose parameters that descibe the applicant")
 
 Streamlit provides more than 15 input widgets for you to easly collect user input. 
