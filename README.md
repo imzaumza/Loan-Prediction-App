@@ -146,7 +146,7 @@ Therefore, we use the shap library to provide a better understanding to the user
 
 We will need to have shap values over the entire dataset, and therefore we add X_test:
 
-    loans = pd.read_csv('../input/prepared-lending-club-dataset/mycsvfile.csv') 
+    loans = pd.read_csv('C:/Users/USER/Desktop/Computer Practice/Loan Prediction App/data/mycsvfile.csv'') 
         X = loans.drop(columns ['loan_status','home_ownership__ANY',
     'home_ownership__MORTGAGE','home_ownership__NONE','home_ownership__OTHER','home_ownership__OWN', 'home_ownership__RENT',
     'addr_state__AK','addr_state__AL','addr_state__AR','addr_state__AZ','addr_state__CA','addr_state__CO','addr_state__CT', 'addr_state__DC','addr_state__DE','addr_state__FL','addr_state__GA','addr_state__HI','addr_state__ID','addr_state__IL','addr_state__IN', 'addr_state__KS','addr_state__KY','addr_state__LA','addr_state__MA','addr_state__MD','addr_state__ME','addr_state__MI','addr_state__MN', 'addr_state__MO','addr_state__MS','addr_state__MT','addr_state__NC','addr_state__ND','addr_state__NE','addr_state__NH','addr_state__NJ', 'addr_state__NM','addr_state__NV','addr_state__NY','addr_state__OH','addr_state__OK','addr_state__OR','addr_state__PA','addr_state__RI', 'addr_state__SC','addr_state__SD','addr_state__TN','addr_state__TX','addr_state__UT','addr_state__VA','addr_state__VT', 'addr_state__WA', 'addr_state__WI','addr_state__WV','addr_state__WY']) 
